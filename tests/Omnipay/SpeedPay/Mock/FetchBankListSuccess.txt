@@ -1,0 +1,8 @@
+HTTP/1.1 200 OK
+Date: Sun, 05 Aug 2018 09:53:36 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+[{"bankid":"544","bankname":"Akbank","namesurname":"Name Person","branchcode":"1250","accnumber":"76718330","iban":"TR68 0011 1000 0000 0076 7183 30","minamount":"100","maxamount":"50000"}
+,{"bankid":"546","bankname":"Denizbank","namesurname":"Name Person","branchcode":"1250","accnumber":"76718330","iban":"TR68 0011 1000 0000 0076 7183 30","minamount":"100","maxamount":"50000"}]

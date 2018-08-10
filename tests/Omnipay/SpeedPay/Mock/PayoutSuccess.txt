@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Date: Sun, 05 Aug 2018 09:53:36 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"result": 200,"msg": "OK","data": [{"withdrawid":2877,"hash":"53747f796b5c764f015e8cd3d56a93c6662daf84","amount":12.43,"userid":113}]}

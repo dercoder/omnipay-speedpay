@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Date: Sun, 05 Aug 2018 09:53:36 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+{"result": 200,"msg": "OK","data": [{"depositid":"17276","hash":"242b4ac36a84af823df74b113d0e7d0714ed2ba7","amount":"12.43","userid":"112"}]}
