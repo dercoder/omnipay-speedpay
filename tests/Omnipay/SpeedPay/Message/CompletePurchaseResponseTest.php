@@ -24,11 +24,13 @@ class CompletePurchaseResponseTest extends TestCase
             'status' => 1,
             'msg'    => 'Onaylandı',
             'data'   => [
-                'depositid' => 17276,
-                'hash'      => '242b4ac36a84af823df74b113d0e7d0714ed2ba7',
-                'amount'    => 12.43,
-                'userid'    => 112,
-                'info'      => 'message',
+                [
+                    'depositid' => 17276,
+                    'hash'      => '242b4ac36a84af823df74b113d0e7d0714ed2ba7',
+                    'amount'    => 12.43,
+                    'userid'    => 112,
+                    'info'      => 'message',
+                ]
             ],
         ]);
 

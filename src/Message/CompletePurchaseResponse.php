@@ -33,7 +33,7 @@ class CompletePurchaseResponse extends AbstractResponse
      */
     public function getDepositId()
     {
-        return isset($this->data['data']['depositid']) ? (int)$this->data['data']['depositid'] : null;
+        return isset($this->data['data'][0]['depositid']) ? (int)$this->data['data'][0]['depositid'] : null;
     }
 
     /**
@@ -41,7 +41,7 @@ class CompletePurchaseResponse extends AbstractResponse
      */
     public function getUserId()
     {
-        return isset($this->data['data']['userid']) ? (int)$this->data['data']['userid'] : null;
+        return isset($this->data['data'][0]['userid']) ? (int)$this->data['data'][0]['userid'] : null;
     }
 
     /**
@@ -49,7 +49,7 @@ class CompletePurchaseResponse extends AbstractResponse
      */
     public function getHash()
     {
-        return isset($this->data['data']['hash']) ? $this->data['data']['hash'] : null;
+        return isset($this->data['data'][0]['hash']) ? $this->data['data'][0]['hash'] : null;
     }
 
     /**
@@ -57,7 +57,7 @@ class CompletePurchaseResponse extends AbstractResponse
      */
     public function getAmount()
     {
-        return isset($this->data['data']['amount']) ? (float)$this->data['data']['amount'] : null;
+        return isset($this->data['data'][0]['amount']) ? (float)$this->data['data'][0]['amount'] : null;
     }
 
     /**
@@ -65,6 +65,6 @@ class CompletePurchaseResponse extends AbstractResponse
      */
     public function getInfo()
     {
-        return isset($this->data['data']['info']) ? $this->data['data']['info'] : null;
+        return isset($this->data['data'][0]['info']) ? $this->data['data'][0]['info'] : null;
     }
 }

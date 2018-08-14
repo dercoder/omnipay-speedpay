@@ -24,11 +24,13 @@ class CompletePayoutResponseTest extends TestCase
             'status' => 1,
             'msg'    => 'Onaylandı',
             'data'   => [
-                'withdrawid' => 2877,
-                'hash'       => '242b4ac36a84af823df74b113d0e7d0714ed2ba7',
-                'amount'     => 12.43,
-                'userid'     => 113,
-                'info'       => 'message',
+                [
+                    'withdrawid' => 2877,
+                    'hash'       => '242b4ac36a84af823df74b113d0e7d0714ed2ba7',
+                    'amount'     => 12.43,
+                    'userid'     => 113,
+                    'info'       => 'message',
+                ],
             ],
         ]);
 
