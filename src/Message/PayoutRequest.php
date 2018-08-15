@@ -133,7 +133,7 @@ class PayoutRequest extends AbstractRequest
     /**
      * @param array $data
      *
-     * @return PurchaseResponse
+     * @return PayoutResponse
      */
     public function sendData($data)
     {
@@ -143,7 +143,7 @@ class PayoutRequest extends AbstractRequest
             ->setBody(json_encode($data), 'application/json')
             ->send();
 
-        $data = json_decode($response->getBody(true));
+        $data = json_decode($response->getBody(true), true);
         return new PayoutResponse($this, $data);
     }
 }
